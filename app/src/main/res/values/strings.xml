@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">rlan-ExpBook</string>
+    <string name="delete_button_text">DELETE</string>
+    <string name="edit_button_text">EDIT</string>
+    <string name="name_text">Name</string>
+    <string name="month_text">yyyy-mm</string>
+    <string name="cost_text">0.00 CAD</string>
+    <string name="add_button_description">Add Expense</string>
+    <string name="total_text">Total:</string>
+    <string name="back_button_text">BACK</string>
+</resources>

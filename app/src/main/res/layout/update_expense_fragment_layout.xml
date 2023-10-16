@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <EditText
+        android:layout_below="@id/expense_date_edit_text"
+        android:id="@+id/expense_cost_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Monthly Charge"
+        android:inputType="numberDecimal"
+        >
+
+    </EditText>
+
+    <EditText
+        android:layout_alignParentTop="true"
+        android:id="@+id/expense_name_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="@string/name_text"
+        android:inputType="text"
+        android:maxLength="15">
+
+    </EditText>
+    <EditText
+        android:id="@+id/expense_date_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Month Started (yyyy-mm)"
+        android:layout_below="@id/expense_name_edit_text"
+        android:inputType="date"
+        android:maxLength="7"
+        android:digits="1234567890-">
+        
+    </EditText>
+    <EditText
+        android:id="@+id/expense_comment_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Comment (optional)"
+        android:maxLength="20"
+        android:layout_below="@id/expense_cost_edit_text">
+
+    </EditText>
+
+
+
+</RelativeLayout>
